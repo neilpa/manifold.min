@@ -9,6 +9,7 @@
     "manifold-3d": "^2.5.1"
   },
   "devDependencies": {
-    "esbuild": "^0.23.1"
+    "esbuild": "^0.23.1",
+    "esbuild-plugin-wasm": "^1.1.0"
   }
 }
