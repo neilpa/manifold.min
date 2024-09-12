@@ -3,5 +3,8 @@
   "packageManager": "yarn@4.4.1",
   "dependencies": {
     "manifold-3d": "^2.5.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.23.1"
   }
 }
