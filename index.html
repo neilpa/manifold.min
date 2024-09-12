@@ -20,4 +20,9 @@
     todo: render a scene
   </div>
 </body>
+<script type="module">
+  // TODO: Can this be made to work directly with esbuild?
+  import Module from './node_modules/manifold-3d/manifold.js';
+  window.loadManifold = Module;
+</script>
 <script src='./bundle.js' type="module"></script>

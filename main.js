@@ -1,12 +1,10 @@
-// import Module from 'manifold-3d';
+const wasm = await window.loadManifold();
+wasm.setup();
 
-// const wasm = await Module();
-// wasm.setup();
-// const { Manifold } = wasm;
+const { Manifold } = wasm;
 
-// const box = Manifold.cube([100, 100, 100], true);
-// const ball = Manifold.sphere(60, 100);
-// const result = box.subtract(ball);
+const box = Manifold.cube([100, 100, 100], true);
+const ball = Manifold.sphere(60, 100);
+const result = box.subtract(ball);
 
-// console.log(result.getMesh());
-console.log('todo: make a mesh');
+console.log(result.getMesh());
