@@ -1,6 +1,10 @@
 {
   "name": "manifold.min",
+  "type": "module",
   "packageManager": "yarn@1.22.22",
+  "scripts": {
+    "build": "esbuild main.js --bundle --platform=browser --format=esm --sourcemap --outfile=bundle.js"
+  },
   "dependencies": {
     "manifold-3d": "^2.5.1"
   },
