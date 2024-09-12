@@ -1,4 +1,7 @@
 {
   "name": "manifold.min",
-  "packageManager": "yarn@4.4.1"
+  "packageManager": "yarn@4.4.1",
+  "dependencies": {
+    "manifold-3d": "^2.5.1"
+  }
 }

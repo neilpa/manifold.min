@@ -5,8 +5,17 @@ __metadata:
   version: 8
   cacheKey: 10c0
 
+"manifold-3d@npm:^2.5.1":
+  version: 2.5.1
+  resolution: "manifold-3d@npm:2.5.1"
+  checksum: 10c0/8044c7f571296f53539ed89944fab7275888eb687c05e856abcd12c8f23d91407c87bb3a698ca6ed5a4e42b4e75be73b356f225f240cb646869657d918e59717
+  languageName: node
+  linkType: hard
+
 "manifold.min@workspace:.":
   version: 0.0.0-use.local
   resolution: "manifold.min@workspace:."
+  dependencies:
+    manifold-3d: "npm:^2.5.1"
   languageName: unknown
   linkType: soft
